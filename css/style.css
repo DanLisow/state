@@ -45,6 +45,9 @@
 .modal-body .form-block__form-inputs {
   margin-right: 0;
 }
+.modal-body .form-block__form-inputs input[type=text] {
+  width: 200px;
+}
 .modal-body .form-block__form-send button {
   font-size: 13px;
 }
@@ -97,6 +100,14 @@ body {
   margin-top: 10px;
 }
 
+.needs .form-block__form-inputs input[type=text] {
+  width: 210px;
+}
+
+.size .form-block__form-inputs input[type=text] {
+  width: 210px;
+}
+
 .form h1 {
   max-width: 400px;
   margin: 0;
@@ -128,7 +139,6 @@ body {
   border: 1px solid #c7c7c7;
   background-color: transparent;
   margin-bottom: 24px;
-  width: 200px;
 }
 .form-block__form-inputs input[type=text]:first-child {
   margin-right: 24px;
