@@ -926,4 +926,56 @@ body {
   font-weight: bold;
   padding: 16px 40px;
   font-size: 14px;
- 
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #424242;
+  transition: 0.3s;
+}
+.questions-block__form button:focus {
+  outline: none;
+}
+.questions-block__form button:hover {
+  cursor: pointer;
+  background-color: #424242;
+  color: #ffffff;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 90px auto;
+}
+.contacts h6 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  color: #E5B66C;
+  margin-bottom: 16px;
+}
+.contacts span {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #424242;
+  max-width: 150px;
+}
+.contacts-list ul {
+  margin: 0;
+  padding: 0;
+}
+.contacts-list ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.contacts-list ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #424242;
+}
