@@ -5,4 +5,7 @@ $(document).ready(function(){
     $('.needs .form-block__form-send div span').on('click', function(){
         $('.needs .form-block__form-send div input').slideToggle(300);
     });
+    $('.modal .form-block__form-send div span').on('click', function(){
+        $('.modal .form-block__form-send div input').slideToggle(300);
+    });
 });
