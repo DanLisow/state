@@ -31,6 +31,7 @@
   }
   .modal-body .form-block__form-send {
     flex-direction: column;
+    align-items: stretch;
   }
   .modal-body .form-block__form-send button {
     align-self: center;
