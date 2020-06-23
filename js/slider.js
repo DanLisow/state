@@ -7,7 +7,7 @@
     nextArrow: '.slick-next-local',
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1000,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1
@@ -82,7 +82,7 @@
     nextArrow: '.slick-next-decision',
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3
