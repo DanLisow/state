@@ -79,7 +79,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  margin: 0 auto;
+  width: 100%;
   font-family: "SF Pro Display";
 }
 
@@ -98,14 +98,6 @@ body {
   font-size: 40px;
   line-height: 120%;
   margin-top: 10px;
-}
-
-.needs .form-block__form-inputs input[type=text] {
-  width: 210px;
-}
-
-.size .form-block__form-inputs input[type=text] {
-  width: 210px;
 }
 
 .form h1 {
@@ -139,6 +131,7 @@ body {
   border: 1px solid #c7c7c7;
   background-color: transparent;
   margin-bottom: 24px;
+  width: 210px;
 }
 .form-block__form-inputs input[type=text]:first-child {
   margin-right: 24px;
@@ -399,7 +392,6 @@ body {
   background: linear-gradient(131.12deg, #f2e3bb 0%, #eac080 134.51%);
   width: 50%;
   right: 0;
-  transform: translateX(25%);
   position: absolute;
 }
 .choose-img {
@@ -558,7 +550,7 @@ body {
 }
 .types-slider__single span {
   display: inline-block;
-  max-width: 205px;
+  max-width: 240px;
   margin-top: 24px;
   font-weight: 600;
   font-size: 24px;
@@ -677,15 +669,18 @@ body {
   position: absolute;
   background: linear-gradient(202.72deg, #f8e1b4 -11.42%, #e9c084 118.54%);
   height: 240px;
-  left: -15%;
+  left: 0;
   bottom: -180px;
-  width: 135%;
+  width: 100%;
 }
 .advantages-bg {
   position: absolute;
   left: 50%;
   bottom: 0;
   transform: translateY(100%);
+}
+.advantages-bg img {
+  width: 100%;
 }
 
 .single-advantage span {
